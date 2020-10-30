@@ -2,23 +2,25 @@ header
 {
     background-color: $color-up;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     padding: 2%;
         #fylo-logo
         {
             width: 50%;
-            border: 4px solid rgb(132, 0, 255);
         }
         nav{
-            border: 4px solid rgb(132, 0, 255);
+            display:flex;
             width: 50%;
             flex-direction: row;
-            justify-content: space-between;
-                a{
-                border: 4px solid rgb(132, 0, 255);
-                width: 40%;
-                height: 100px;
-                justify-content: space-between;
+            justify-content: flex-end;
+            a{
+                display:flex;
+                justify-content: center; 
+                align-items: center;
+                padding-right: 15px;
+                padding-left: 15px;
                 }
-        }
+            }
+          
 }

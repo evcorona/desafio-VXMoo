@@ -1,10 +1,19 @@
-$color-up: #1c2230;
-$color-down: #0c1524;
-$color-font: white;
+@import 'variables';
+@import 'mixins';
+@import 'header';
+@import 'main';
+@import 'footer';
+
 
 *{
     color: $color-font; 
-    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
 }
 
 header,main,footer{
@@ -13,27 +22,15 @@ header,main,footer{
 
 
 
-main
-{
-    display: flex;
-    flex-direction: column;
-        .inicio{
-            background-color: $color-up;
-            display: flex;
-            flex-direction: column;
-            justify-items: center;
-        }
-
-        .central{
-            background-color: #1c2230;
-            color: $color-font;
-        }
-
-        
-
+/* medium */
+@media screen and (min-width: 768px) {
+    
+    //declaracion de todo lo que cambia
 }
+/* desktop */
+@media screen and (min-width: 1200px) {
 
-
-
+        //declaracion de todo lo que cambia
+}
 
 
