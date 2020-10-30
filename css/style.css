@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   background-color: #1c2230;
   display: -webkit-box;
@@ -58,7 +59,8 @@ main {
           justify-content: center;
 }
 
-main .inicio {
+main ​
+.inicio {
   background-color: #1c2230;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -70,9 +72,11 @@ main .inicio {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10%;
 }
 
-main .inicio .intro {
+main ​
+.inicio .intro {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -86,6 +90,42 @@ main .inicio .intro {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+main ​
+.inicio .intro img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70vw;
+}
+
+main ​
+.inicio .fondo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10s0vw;
 }
 
 main .central {
@@ -105,7 +145,8 @@ main .central {
           align-items: center;
 }
 
-main .dos {
+main ​
+.dos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,7 +159,8 @@ main .dos {
           justify-content: space-between;
 }
 
-main .dos article {
+main ​
+.dos article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -182,9 +224,26 @@ main .tres .right label #arrow {
   padding-left: 10px;
 }
 
+main .cuatro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
 footer {
-  background-color: #0c1524;
-  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 * {
