@@ -13,3 +13,7 @@
     text-decoration:none;
     margin-top: 10px;
 }
+
+@mixin bordertest {
+    border: 4px solid rgb(132, 0, 255);
+}
