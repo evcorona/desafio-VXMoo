@@ -1,5 +1,24 @@
-footer { 
+footer{ 
+    background-color:$color-up;
+    width: 100vw;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between; 
+    padding: 10px 30px 10px 10px;
+    
 
- }
+    nav{ 
+        display: flex;
+    }
+
+    .footer-contact{
+        margin-bottom: 10%;
+        display: flex;
+        align-items: center;
+
+        
+    } 
+
+    
+
+}
