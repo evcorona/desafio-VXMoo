@@ -1,63 +1,18 @@
+
 main
 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-​
-        .inicio{
-            background-color: $color-up;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 10%;
-            .intro{
-                @include center-all;
-                img{
-                    @include center-all;
-                    width: 70vw;}
-            } 
-            .fondo{ 
-                @include center-all;  
-                width: 10s0vw;   
-            }    
+
+    .central{
+        background-color: $color-central;
+        @include center-all;
         } 
-         
-            
-        .central{
-            background-color: $color-central;
-            @include center-all;
-            } 
-​
-        .dos{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            article{@include center-all;}
-        }
-        .tres{
-            display: flex;
-            flex-direction: row;
-            div{
-                display: flex;
-                justify-content: flex-start; 
-                align-items: center;
-            }
-            .right{
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start; 
-                align-items: flex-start;
-                label
-                    {
-                    display: flex;  
-                    #arrow{padding-left: 10px;}
-                    }
-                }
-        }
-        .cuatro{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start; 
-            
-        }
+
+    @import 'main/main-inicio';            
+    @import 'main/main-dos';
+    @import 'main/main-tres';
+    @import 'main/main-cuatro';   
+    @import 'main/newsletter';
 }

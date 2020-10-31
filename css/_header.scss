@@ -7,11 +7,12 @@ header
     padding: 2%;
         #fylo-logo
         {
-            width: 50%;
+            width: 50vw;
+            img{width: 20vw;}
         }
         nav{
             display:flex;
-            width: 50%;
+            width: 50vw;
             flex-direction: row;
             justify-content: flex-end;
             a{
@@ -20,6 +21,7 @@ header
                 align-items: center;
                 padding-right: 15px;
                 padding-left: 15px;
+                text-decoration:none;
                 }
             }
           

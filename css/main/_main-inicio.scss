@@ -1,0 +1,30 @@
+.inicio{
+    background-color: $color-up;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10%;
+    position: relative;
+    .intro{
+        z-index: 1;
+        @include center-all;
+        img{
+            @include center-all;
+            width: 70vw;}
+        a{
+            @include center-all;
+            @include styleButton;
+        }
+    } 
+    .fondo{ 
+        box-sizing:border-box;
+        display: flex;
+        position: absolute;
+        left: 0;
+        right: 50%;
+        bottom:109vw;
+        margin: auto;
+        z-index: -1px;
+        img{width: 100vw;}
+    }   
+} 
