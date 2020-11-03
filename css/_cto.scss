@@ -1,0 +1,28 @@
+.cto {
+    padding: 0px 30px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 80px;
+    .description{
+        a{
+            color: hsl(176, 68%, 64%);
+        }
+        a:hover {
+            color: hsl(198, 60%, 50%)
+        }
+        img {
+            vertical-align: middle;
+        }
+  }
+}
+
+@media (max-width: 768px){
+    .cto{
+        align-items: center;
+        text-align: left;
+        margin-bottom: 80px;
+        .description {
+            margin-top: 15px;
+        }
+    }
+}

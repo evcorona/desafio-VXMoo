@@ -1,0 +1,27 @@
+#section-wrapper{
+    background-color: hsl(218, 28%, 13%) ;
+    padding-top: 30px;
+    .features {
+        margin-bottom: 80px;
+        padding: 0px 60px;
+        .col {
+            padding: 5px 10px;
+            border-radius: 5px;
+            img{
+                height: 83px;
+            }
+          }
+      }  
+}
+
+@media (max-width: 768px){
+    #section-wrapper{
+        .features {
+            margin-bottom: 0px;
+            padding: 0px 0px;
+            .col {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}

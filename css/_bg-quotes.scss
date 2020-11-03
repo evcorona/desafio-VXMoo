@@ -1,0 +1,105 @@
+.bg-quotes{
+    justify-content: flex-start;
+}
+.testimonials{
+  text-align: left;
+  justify-content: center;
+  .col {
+    padding: 10px 20px;
+    margin-right: 30px;
+    background-color: hsl(219, 30%, 18%);
+    .profile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img {
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+        .info {
+            line-height: 5%;
+        }
+    }
+}
+}
+
+.sign-up 
+{
+    .col {
+        margin: auto;
+        width: 60%;
+        border-radius: 10px;
+        background-color: hsl(217, 28%, 15%);
+        padding: 20px 40px;
+        position: relative;
+        top: 100px;
+    }
+    input {
+        padding: 8px ;
+        border-radius: 50px;
+        width: 50%;
+        outline: none;
+        margin-right: 15px;
+        border: none;
+      }
+    button {
+        outline: none;
+        padding: 8px 15px;
+        border-radius: 50px;
+        border: 0px;
+        color: hsl(0, 0%, 96%);
+        background-color: hsl(198, 60%, 50%);
+      }
+    button:hover {
+        background-color: hsl(176, 68%, 64%);
+      }
+}
+
+@media (max-width: 768px){
+    .testimonials{
+        text-align: left;
+        .col{
+            margin-bottom: 30px;
+        }
+        .info { 
+            width: 50vw;
+          }
+
+    }
+    .sign-up{
+        .col {
+            margin: auto;
+            width: 100%;
+            border-radius: 10px;
+            background-color: hsl(217, 28%, 15%);
+            padding: 20px 40px;
+            position: relative;
+            top: 100px;
+        }
+        input {
+            padding: 8px ;
+            border-radius: 50px;
+            width: 80%;
+            outline: none;
+            border: none;
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        input::placeholder {
+            text-align: center;
+        }
+        button {
+            width: 85%;
+            outline: none;
+            padding: 8px ;
+            border-radius: 50px;
+            border: none;
+            color: hsl(0, 0%, 96%);
+            margin: auto;
+            background: linear-gradient(to right, #50C9D5,#40AACC);
+            font-weight: bold;
+        }
+    }
+}
